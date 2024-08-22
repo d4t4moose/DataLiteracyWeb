@@ -1,0 +1,276 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.container {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto; /* Center the content */
+    padding: 1rem; /* Optional padding */
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo-container {
+    text-align: center;
+    height: 300px; /* Adjust this height if necessary */
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 280px; /* Adjust this value to move the logo down */
+    z-index: 900;
+}
+
+.logo {
+    max-width: 80%;
+    max-height: 500px;
+    transition: opacity 0.5s;
+    position: absolute;
+}
+
+.logo-container {
+    margin-top: -70px; /* Adjust this value to move the logo up */
+}
+
+section {
+    padding: 2.5rem;
+    margin: 0; /* Remove margin to avoid extra space */
+}
+
+section h2 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 0.5rem;
+}
+
+#home {
+    margin-top: 400px; /* Adjust this value to ensure correct spacing */
+}
+
+.side-by-side {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem; /* Adjust gap as needed */
+}
+
+.side-by-side p {
+    flex: 1;
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0;
+    position: relative;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 0.5rem;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #444;
+}
+
+#contact button {
+    display: yes;
+}
+
+#home {
+    margin-bottom: -2rem; /* Reduce the bottom margin */
+}
+
+#resources {
+    margin-bottom: -1rem; /* Reduce the bottom margin */
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem; /* Adjust gap as needed */
+}
+
+.about-image {
+    max-width: 15%; /* Adjust as needed */
+    height: auto;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+/* Base styles for the links */
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.button-link:hover {
+    background-color: #7ae912b2;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Optional: Active/Focus state for accessibility */
+.button-link:active, .button-link:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.about-content {
+    background-color: #f0f0f0; /* Light grey color */
+    padding: 20px; /* Add some padding */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+.about-image {
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.side-by-side {
+    display: flex; /* Align paragraphs side by side */
+    justify-content: space-between; /* Space out the paragraphs */
+}
+
+.side-by-side p {
+    flex: 1; /* Allow paragraphs to grow equally */
+    margin: 0 10px; /* Add some space between them */
+}
+
+.button-container {
+    display: flex; /* Use Flexbox to align buttons */
+    justify-content: center; /* Center the buttons */
+    margin-bottom: 20px; /* Space below the button container */
+}
+
+.button-link {
+    background-color: #00c3ff77; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Padding inside the button */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    margin: 0 10px; /* Space between buttons */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.button-link:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Darker background on hover */
+}
+
+.home-button {
+    background-color: #007bff; /* Home button color */
+}
+
+.about-button {
+    background-color: #28a745; /* About button color */
+}
+
+.resources-button {
+    background-color: #00c3ff77; /* Resources button color */
+}
+
+/* Hover effects */
+.home-button:hover {
+    background-color: #00b3b3; /* Darker shade for hover */
+}
+
+.about-button:hover {
+    background-color: #218838; /* Darker shade for hover */
+}
+
+.resources-button:hover {
+    background-color: #00c3ff77; /* Darker shade for hover */
+}
+
+/* General button-link styling */
+.button-link {
+    padding: 10px 20px; /* Padding inside the button */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    margin: 0 10px; /* Space between buttons */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+    display: inline-block; /* Ensure they behave like buttons */
+    color: white; /* Text color */
+}
+
+/* Specific styling for the resource buttons */
+.button-link[href*="tableau"],
+.button-link[href*="youtube"] {
+    background-color: #00c3ff77; /* Button background color */
+}
+
+.button-link[href*="tableau"]:hover,
+.button-link[href*="youtube"]:hover {
+    background-color: #00bbff77; /* Darker shade on hover */
+}
